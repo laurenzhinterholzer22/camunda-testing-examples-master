@@ -36,7 +36,7 @@ public class WorkflowTest {
     public static final String END_EVENT_ORDER_CANCELLED = "EndEvent_OrderCancelled";
     public static final String END_EVENT_CANCELLATION_SENT = "EndEvent_CancellationSent";
     public static final String TASK_DELIVER_ORDER1 = "Task_DeliverOrder";
-    public static final String VAR_CUSTOMER = "customer";  // belibig
+    public static final String VAR_CUSTOMER = "customer";  // name doesn't matter
 
     @Rule
     @ClassRule
