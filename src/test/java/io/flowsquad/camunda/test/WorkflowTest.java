@@ -42,7 +42,7 @@ public class WorkflowTest {
     @ClassRule
     public static TestCoverageProcessEngineRule rule = TestCoverageProcessEngineRuleBuilder.create()
             .excludeProcessDefinitionKeys(DELIVERY_PROCESS_KEY)
-            .assertClassCoverageAtLeast(0.1) // was 0.9 but didn't work, so I changed it
+            .assertClassCoverageAtLeast(0.9) // was 0.9 but didn't work, so I changed it
             .build();
 
     @Mock
